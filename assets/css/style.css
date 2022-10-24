@@ -2,8 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
-
+/* Format for background color */
 body {
     background-color: #d9dcd6;
 }
@@ -12,22 +13,22 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
-    z-index: 10;
-    position: fixed;
+    color: #ffffff;  
     
 }
-
-.header h1 {
+/* Format for Horiseon title */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Format for "seo" in Horiseon title*/
+.seo {
     color: #d9dcd6;
     
 }
 
+/* Format of header section */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,24 +38,25 @@ body {
                                                                                    
 }
 
-.header section ul {
-    list-style-type: none;
-}
-
-.header section ul li {
+/* Format for list items */
+li {
     display: inline-block;
     margin-left: 25px;
+    float: right;
+    
 }
 
+/* Formatting for text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Formatting for paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Formatting for main photo on page */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,14 +66,17 @@ p {
     background-position: center;
 }
 
+/* Format for image to appear on left side of text box*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Format for image to appear on right side of text boxx */
 .float-right {
     float: right;
     margin-left: 25px;
+    
 }
 
 .content {
@@ -91,25 +96,25 @@ p {
     background-color: #2589bd;
 }
 
-.benefit {
+.benefit-list {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-.benefit h3 {
+.benefit-list h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.benefit-list img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-.brand-content {
+/* how the options section is formatted */
+.options {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -118,17 +123,18 @@ p {
     color: #ffffff;
 }
 
-.brand-content img {
+/* how the images in the options appear*/
+.options img {
     max-height: 200px;
 }
 
-
-.brand-content h2 {
+/*how the text appears in the option */
+.options h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/*how the footer appears*/
 .footer {
     padding: 30px;
     clear: both;
@@ -136,6 +142,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
