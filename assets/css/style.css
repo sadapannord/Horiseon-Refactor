@@ -3,12 +3,14 @@
     padding: 0;
     margin: 0;
     
+    
 }
 /* Format for background color */
 body {
     background-color: #d9dcd6;
 }
 
+/*Format for header sectioionon */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -79,12 +81,14 @@ p {
     
 }
 
+/* Format for blocks of options */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Format for box for benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,24 +100,27 @@ p {
     background-color: #2589bd;
 }
 
+/*Format for the list of benefits */
 .benefit-list {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
+/* Format for the benefits titles */
 .benefit-list h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Format for images in benefits section */
 .benefit-list img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* how the options section is formatted */
+/* Format for the options section */
 .options {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,18 +130,18 @@ p {
     color: #ffffff;
 }
 
-/* how the images in the options appear*/
+/* Format for how the images in the options appear*/
 .options img {
     max-height: 200px;
 }
 
-/*how the text appears in the option */
+/*Format for the text in the options */
 .options h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*how the footer appears*/
+/*Format for how the footer appears*/
 .footer {
     padding: 30px;
     clear: both;
@@ -142,6 +149,7 @@ p {
     text-align: center;
 }
 
+/*Format of footer h4 */
 .footer h4 {
     font-size: 20px;
 }
