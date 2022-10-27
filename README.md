@@ -9,5 +9,6 @@ In working through this refractor I learned how to identify unnecessary elements
 
 In order to view the deployed website please visit https://sadapannord.github.io/Horiseon-Refactor/
 To view the GitHub Repository please visit https://github.com/sadapannord/Horiseon-Refactor.git
-}
 
+
+s

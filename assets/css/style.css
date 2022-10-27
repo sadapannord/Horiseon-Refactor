@@ -31,7 +31,7 @@ h1 {
 }
 
 /* Format of header section */
-.header section {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
